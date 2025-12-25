@@ -44,14 +44,6 @@ Ce générateur Python produit des signaux de balises de détresse conformes au 
 pip install numpy scipy
 ```
 
-### Téléchargement
-
-```bash
-# Cloner ou copier le fichier
-wget cospas_generator_dec406.py
-chmod +x cospas_generator_dec406.py
-```
-
 ---
 
 ## Utilisation
@@ -65,11 +57,6 @@ python3 cospas_generator_dec406.py \
     -o test.wav \
     --format wav \
     --repeat 3
-```
-
-Test avec dec406 :
-```bash
-./dec406 test.wav
 ```
 
 ### Génération d'un fichier IQ (HackRF)
@@ -508,5 +495,3 @@ Cet outil est fourni à des fins éducatives et de test uniquement.
 **⚠️ RAPPEL LÉGAL** : L'émission sur 406 MHz est strictement réglementée. Toute émission non autorisée est passible de poursuites pénales et déclenche une alerte SAR réelle mobilisant des moyens de secours.
 
 ---
-
-*Documentation générée pour ADRASEC 06 - F4JTV*
